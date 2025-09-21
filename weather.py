@@ -1,9 +1,11 @@
+import requests
+
 url = "https://open-weather13.p.rapidapi.com/city"
 
-querystring = {"city":"hyderabad","lang":"EN"}
+querystring = {"city":"new york","lang":"EN"}
 
 headers = {
-	"x-rapidapi-key": "cd1f759f71mshae99f9fa8ba0469p1c91b3jsn091dd289c435",
+	"x-rapidapi-key": "Sign Up for Key",
 	"x-rapidapi-host": "open-weather13.p.rapidapi.com"
 }
 
